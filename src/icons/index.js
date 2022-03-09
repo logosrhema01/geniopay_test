@@ -1,4 +1,5 @@
 import * as React from 'react';
+import PropTypes from 'prop-types';
 import { SvgIcon as MuiSvgIcon, styled } from '@mui/material';
 
 const SvgIcon = styled(MuiSvgIcon, {
@@ -16,6 +17,11 @@ SvgIcon.defaultProps = {
   viewBox: '0 0 30 30',
   focusable: 'false',
   'aria-hidden': 'true'
+};
+
+Wallet.propTypes = {
+  fillColor: PropTypes.object,
+  strokeColor: PropTypes.object
 };
 
 function Wallet(props) {

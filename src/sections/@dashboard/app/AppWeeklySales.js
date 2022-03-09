@@ -1,11 +1,10 @@
 import { PropTypes } from 'prop-types';
 // material
-import { alpha, styled } from '@mui/material/styles';
+import { styled } from '@mui/material/styles';
 import { Card, Grid, Typography, Stack, Avatar } from '@mui/material';
 // utils
 import account from '../../../_mocks_/account';
 // component
-import Iconify from '../../../components/Iconify';
 
 // ----------------------------------------------------------------------
 

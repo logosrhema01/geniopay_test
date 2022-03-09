@@ -9,8 +9,6 @@ import {
   Box,
   List,
   ListItem,
-  ListItemButton,
-  ListItemAvatar,
   Avatar,
   ListItemText
 } from '@mui/material';
@@ -119,16 +117,7 @@ export default function Blog() {
               <Grid xs={12} md={6}>
                 <Tab tabs={TAB_DATA} defaultValue={0} />
               </Grid>
-              <Grid
-                xs={12}
-                md={6}
-                style={{
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  position: 'relative'
-                }}
-              >
+              <Grid xs={12} md={6}>
                 <p>Hi</p>
               </Grid>
             </Grid>
